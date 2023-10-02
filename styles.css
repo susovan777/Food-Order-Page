@@ -4,11 +4,27 @@
     box-sizing: border-box;
 }
 
+#navbar{
+    display: flex;
+    position: relative;
+    justify-content: space-between;;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+}
+
 .left {
     display: inline-block;
-    position: absolute;
-    top: 20px;
-    left: 25px;
+    margin: 0 15px;
 }
 
 .left p {
@@ -25,20 +41,6 @@
     color: rgb(255, 89, 0);
 }
 
-#navbar{
-    display: flex;
-    position: relative;
-}
-
-#navbar::before{
-    content: "";
-    background-color: black;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    z-index: -1;
-    opacity: 0.5;
-}
 
 #navbar ul{
     margin: 0 60px;
