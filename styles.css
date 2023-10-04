@@ -115,3 +115,12 @@
     background-color: green;
     transition-duration: 0.3s;
 }
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
