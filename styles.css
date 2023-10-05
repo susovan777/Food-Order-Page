@@ -116,7 +116,45 @@
     transition-duration: 0.3s;
 }
 
+.service-grp h1{
+    text-align: center;
+    padding: 10px;
+    margin: 23px;
+    font-size: 34px;
+}
+/* Done till here */
 
+#services{
+    margin: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.center{
+    text-align: center;
+
+}
+#services .box{
+    border: 2px solid red;
+    width: 420px;
+    margin: 25px;
+    border-radius: 20px;
+    padding: 35px;
+    background-color: rgb(218, 229, 237);
+}
+
+#services .box h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#services .box img{
+    height: 100px;
+    /* set position to center */
+    margin: auto;
+    display: block;
+    margin-bottom: 45px;
+}
 
 footer{
     background-color: black;
